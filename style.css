@@ -283,4 +283,12 @@
   .pashalka {
     display: none;
   }
+  .bar {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .bar {
+    display: none;
+  }
 }
