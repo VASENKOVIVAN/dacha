@@ -510,7 +510,7 @@
       </div>
       <div style="text-align: center">
         <input
-          style="padding-top: 10px; padding-bottom: 10px; width: 300px"
+          style="padding-top: 20px; padding-bottom: 20px; width: 80%"
           id="first_name"
         />
       </div>
@@ -571,7 +571,7 @@
             rgb(143, 89, 213),
             rgb(133, 86, 214)
           );
-          font-size: 20px;
+          font-size: 18px;
         "
         id="result"
       ></div>
@@ -579,7 +579,8 @@
         function say_hi() {
           var fname = document.getElementById("first_name").value;
           var html =
-            " Ты шагаешь по столу как Назарбаев в Астану Купюры на полу, походка «ты медведь Балу» <br /><br />От всего сердца, " + fname +
+            " Ты шагаешь по столу как Назарбаев в Астану Купюры на полу, походка «ты медведь Балу» <br /><br />От всего сердца, " +
+            fname +
             ", хочу поздравить тебя с Новым годом и пожелать счастья)))";
           document.getElementById("result").innerHTML = html;
         }
